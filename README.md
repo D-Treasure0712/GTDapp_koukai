@@ -1,48 +1,67 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# GTDタスク管理アプリケーション
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 概要
+GTD（Getting Things Done）メソッドをベースにした、モダンなタスク管理アプリケーションです。React + TypeScriptで構築され、AWSのサーバーレスアーキテクチャを活用しています。
 
-## Available Scripts
+## 🌟 主な機能
+- GTDワークフローに基づくタスクの自動振り分け
+- リアルタイムな更新（WebSocket使用）
+- レスポンシブデザイン
+- ダークモード対応
+- AWS Cognitoによる認証
 
-In the project directory, you can run:
+## 🛠 技術スタック
+### フロントエンド
+- React 18
+- TypeScript 4.9
+- TailwindCSS
+- AWS Amplify UI Components
 
-### `npm start`
+### バックエンド（サーバーレス）
+- AWS AppSync (GraphQL)
+- AWS Cognito
+- DynamoDB
+- AWS Lambda
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 開発ツール
+- ESLint
+- Prettier
+- Husky (Git hooks)
+- Jest
+- AWS CDK
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💡 技術的なポイント
+1. **最新のReactパターン**
+   - Custom Hooks による状態管理の分離
+   - React 18の新機能（Concurrent Mode等）の活用
+   - TypeScriptの厳格な型チェック
 
-### `npm test`
+2. **GraphQL API設計**
+   - N+1問題の解決
+   - スキーマ駆動開発
+   - カスタムディレクティブの実装
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **パフォーマンス最適化**
+   - React.memo による不要な再レンダリングの防止
+   - GraphQLクエリの最適化
+   - レスポンシブな画像処理
 
-### `npm run build`
+4. **セキュリティ対策**
+   - AWS Cognitoによる認証・認可
+   - XSS対策
+   - CSRF対策
+   - APIリクエストの制限
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 ローカル開発環境のセットアップ
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 必要条件
+- Node.js 16.x以上
+- AWS CLI
+- Amplify CLI
+- Git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
+### セットアップ手順
+1. リポジトリのクローン
+```bash
+git clone https://github.com/your-username/gtd-task-manager.git
+cd gtd-task-manager
