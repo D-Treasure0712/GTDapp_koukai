@@ -27,3 +27,5 @@ GTD（Getting Things Done）メソッドをベースにした、モダンなタ�
 - Husky (Git hooks)
 - Jest
 - AWS CDK
+
+ぜひ、こちらから使ってみてください！→[GTDタスク管理アプリ](https://main.d3uac22imyhyr6.amplifyapp.com/)
