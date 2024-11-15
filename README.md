@@ -60,8 +60,3 @@ GTD（Getting Things Done）メソッドをベースにした、モダンなタ�
 - Amplify CLI
 - Git
 
-### セットアップ手順
-1. リポジトリのクローン
-```bash
-git clone https://github.com/your-username/gtd-task-manager.git
-cd gtd-task-manager
