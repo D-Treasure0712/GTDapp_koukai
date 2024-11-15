@@ -1,0 +1,168 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/.nyc_output
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
+/junit.xml
+/test-results
+
+# production / build outputs
+/build
+/dist
+/.next
+/.nuxt
+/out
+/.vite
+*.tsbuildinfo
+
+# AWS Amplify
+/src/aws-exports.js
+/src/aws-exports.ts
+amplify/team-provider-info.json
+amplify/#current-cloud-backend
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+amplify/backend/hosting
+amplify/backend/api/*/build
+amplify/backend/auth/*/build
+amplify/backend/function/*/build
+amplify/backend/storage/*/build
+amplify/.config
+aws-exports.*
+aws-config.*
+
+# Environment & local files
+.env
+.env.*
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+*.local
+
+# IDE - VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+!.vscode/tasks.json.example
+!.vscode/launch.json.example
+
+# IDE - JetBrains
+.idea
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Logs and debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+.pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Cache and temp directories
+.temp
+.tmp
+.cache
+.eslintcache
+.stylelintcache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.npm
+.yarn
+.pnp.*
+
+# Security and keys
+*.pem
+*.key
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+*.der
+*.key.pub
+.npmrc
+.yarnrc
+.env.*.key
+credentials.*
+*credential*
+*secret*
+*password*
+*token*
+*.keystore
+*.jks
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.sav
+*.tmp
+*.*~
+
+# Build system specific
+.gradle/
+.maven/
+target/
+*.tgz
+*.zip
+*.tar.gz
+*.rar
+
+# Package specific
+package-lock.json.back
+yarn.lock.back
+pnpm-lock.yaml.back
+
+# Generated content
+/generated
+*.generated.*
+schema.graphql
+src/API.ts
+src/graphql/*
+!src/graphql/*.example
+
+# Misc
+.history/
+.vscode-test
+*.pid
+*.seed
+*.pid.lock
+.lock-wscript
+config.gypi
+CVS
+.svn/
+_svn/
+.git/
+*.diff
+.vercel
+.netlify
